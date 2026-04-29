@@ -1,0 +1,7 @@
+{
+  "overrides": {
+    "namespace": "WordCloud",
+    "control": "WordCloudControl",
+    "pcfId": "WCC"
+  }
+}

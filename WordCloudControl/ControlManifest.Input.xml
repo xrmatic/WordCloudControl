@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="WordCloud"
+           constructor="WordCloudControl"
+           version="1.0.0"
+           display-name-key="WordCloudControl_DisplayName"
+           description-key="WordCloudControl_Desc"
+           control-type="standard">
+
+    <!-- Primary input: the delimited list of words/phrases to display -->
+    <property name="delimitedList"
+              display-name-key="delimitedList_Display_Key"
+              description-key="delimitedList_Desc_Key"
+              of-type="SingleLine.Text"
+              usage="bound"
+              required="true" />
+
+    <!-- Delimiter used to split the list (default: comma) -->
+    <property name="delimiter"
+              display-name-key="delimiter_Display_Key"
+              description-key="delimiter_Desc_Key"
+              of-type="SingleLine.Text"
+              usage="input"
+              required="false"
+              default-value="," />
+
+    <!-- Color palette for the word cloud -->
+    <property name="colorPalette"
+              display-name-key="colorPalette_Display_Key"
+              description-key="colorPalette_Desc_Key"
+              of-type="Enum"
+              usage="input"
+              required="false"
+              default-value="Rainbow">
+      <value name="Rainbow"   display-name-key="colorPalette_Rainbow_Key" />
+      <value name="Blues"     display-name-key="colorPalette_Blues_Key" />
+      <value name="Reds"      display-name-key="colorPalette_Reds_Key" />
+      <value name="Greens"    display-name-key="colorPalette_Greens_Key" />
+      <value name="Purples"   display-name-key="colorPalette_Purples_Key" />
+      <value name="Warm"      display-name-key="colorPalette_Warm_Key" />
+      <value name="Cool"      display-name-key="colorPalette_Cool_Key" />
+    </property>
+
+    <!-- Font family for rendered words -->
+    <property name="fontFamily"
+              display-name-key="fontFamily_Display_Key"
+              description-key="fontFamily_Desc_Key"
+              of-type="Enum"
+              usage="input"
+              required="false"
+              default-value="Impact">
+      <value name="Impact"      display-name-key="fontFamily_Impact_Key" />
+      <value name="Arial"       display-name-key="fontFamily_Arial_Key" />
+      <value name="Georgia"     display-name-key="fontFamily_Georgia_Key" />
+      <value name="TrebuchetMS" display-name-key="fontFamily_TrebuchetMS_Key" />
+      <value name="Verdana"     display-name-key="fontFamily_Verdana_Key" />
+      <value name="CourierNew"  display-name-key="fontFamily_CourierNew_Key" />
+    </property>
+
+    <!-- Minimum font size in pixels -->
+    <property name="minFontSize"
+              display-name-key="minFontSize_Display_Key"
+              description-key="minFontSize_Desc_Key"
+              of-type="Whole.None"
+              usage="input"
+              required="false"
+              default-value="12" />
+
+    <!-- Maximum font size in pixels -->
+    <property name="maxFontSize"
+              display-name-key="maxFontSize_Display_Key"
+              description-key="maxFontSize_Desc_Key"
+              of-type="Whole.None"
+              usage="input"
+              required="false"
+              default-value="72" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/WordCloudControl.css" order="1" />
+      <resx path="strings/WordCloudControl.1033.resx" version="1.0.0" />
+    </resources>
+
+  </control>
+</manifest>
