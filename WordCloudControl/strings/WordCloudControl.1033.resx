@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+
+  <data name="WordCloudControl_DisplayName" xml:space="preserve">
+    <value>Word Cloud</value>
+  </data>
+  <data name="WordCloudControl_Desc" xml:space="preserve">
+    <value>Displays a delimited list of words/phrases as an interactive Word Cloud.</value>
+  </data>
+
+  <data name="delimitedList_Display_Key" xml:space="preserve">
+    <value>Delimited List</value>
+  </data>
+  <data name="delimitedList_Desc_Key" xml:space="preserve">
+    <value>Comma-separated (or custom-delimited) list of words or phrases to display.</value>
+  </data>
+
+  <data name="delimiter_Display_Key" xml:space="preserve">
+    <value>Delimiter</value>
+  </data>
+  <data name="delimiter_Desc_Key" xml:space="preserve">
+    <value>Character used to split the list. Defaults to comma (,).</value>
+  </data>
+
+  <data name="colorPalette_Display_Key" xml:space="preserve">
+    <value>Color Palette</value>
+  </data>
+  <data name="colorPalette_Desc_Key" xml:space="preserve">
+    <value>Choose a color scheme for the word cloud.</value>
+  </data>
+  <data name="colorPalette_Rainbow_Key" xml:space="preserve">
+    <value>Rainbow</value>
+  </data>
+  <data name="colorPalette_Blues_Key" xml:space="preserve">
+    <value>Blues</value>
+  </data>
+  <data name="colorPalette_Reds_Key" xml:space="preserve">
+    <value>Reds</value>
+  </data>
+  <data name="colorPalette_Greens_Key" xml:space="preserve">
+    <value>Greens</value>
+  </data>
+  <data name="colorPalette_Purples_Key" xml:space="preserve">
+    <value>Purples</value>
+  </data>
+  <data name="colorPalette_Warm_Key" xml:space="preserve">
+    <value>Warm</value>
+  </data>
+  <data name="colorPalette_Cool_Key" xml:space="preserve">
+    <value>Cool</value>
+  </data>
+
+  <data name="fontFamily_Display_Key" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+  <data name="fontFamily_Desc_Key" xml:space="preserve">
+    <value>Choose the font used to render the words.</value>
+  </data>
+  <data name="fontFamily_Impact_Key" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="fontFamily_Arial_Key" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="fontFamily_Georgia_Key" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="fontFamily_TrebuchetMS_Key" xml:space="preserve">
+    <value>Trebuchet MS</value>
+  </data>
+  <data name="fontFamily_Verdana_Key" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="fontFamily_CourierNew_Key" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+
+  <data name="minFontSize_Display_Key" xml:space="preserve">
+    <value>Minimum Font Size</value>
+  </data>
+  <data name="minFontSize_Desc_Key" xml:space="preserve">
+    <value>Smallest font size in pixels for the least-frequent words.</value>
+  </data>
+
+  <data name="maxFontSize_Display_Key" xml:space="preserve">
+    <value>Maximum Font Size</value>
+  </data>
+  <data name="maxFontSize_Desc_Key" xml:space="preserve">
+    <value>Largest font size in pixels for the most-frequent words.</value>
+  </data>
+</root>

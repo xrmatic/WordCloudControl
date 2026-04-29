@@ -1,0 +1,30 @@
+## Build artifacts
+out/
+dist/
+*.zip
+*.msapp
+
+## PCF auto-generated files (run npm run refreshTypes to regenerate)
+# WordCloudControl/generated/
+.pcftools/
+
+## Dependencies
+node_modules/
+
+## Test results
+TestResults/
+
+## IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## OS files
+.DS_Store
+Thumbs.db

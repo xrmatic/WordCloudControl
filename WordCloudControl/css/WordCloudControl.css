@@ -1,0 +1,56 @@
+/* ============================================================
+   Word Cloud PCF Control – WordCloudControl.css
+   ============================================================ */
+
+/* Root container injected by the PCF framework */
+.wcc-root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* SVG wrapper fills the root container */
+.wcc-svg-wrapper {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The SVG element itself */
+.wcc-svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Individual word elements */
+.wcc-word {
+    cursor: default;
+    user-select: none;
+    transition: opacity 0.2s ease;
+}
+
+.wcc-word:hover {
+    opacity: 0.75;
+}
+
+/* Empty/placeholder message */
+.wcc-empty {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
